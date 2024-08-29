@@ -1,3 +1,4 @@
+ModbusADU	KEYWORD1		
 rtu	KEYWORD3		
 tcp	KEYWORD3		
 pdu	KEYWORD3		
