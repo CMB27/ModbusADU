@@ -145,3 +145,9 @@ uint16_t ModbusADU::_calculateCrc(uint16_t len) {
   }
   return value;
 }
+
+
+
+uint16_t div8RndUp(uint16_t value) {
+  return (value + 7) >> 3;
+}

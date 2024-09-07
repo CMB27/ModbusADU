@@ -47,4 +47,6 @@ class ModbusADU {
     
 };
 
+uint16_t  div8RndUp(uint16_t value);
+
 #endif
