@@ -2,7 +2,7 @@
 > [!WARNING]
 > This README is a work-in-progress and may contain incomplete information or errors, however, the library itself is functional.
 
-This is a library for managing Modbus RTU and TCP appication data units (ADUs).
+This is a library for managing Modbus RTU and TCP application data units (ADUs).
 It is intended to be used with other libraries, but it can be used on its own.
 
 ---
