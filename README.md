@@ -37,7 +37,7 @@ ModbusADU adu;
   </blockquote>
 </details>
 
----
+
 
 <details><summary id="rtu"><strong>rtu[]</strong></summary>
   <blockquote>
@@ -109,7 +109,7 @@ Allows reading from and writing to a `ModbusADU` object as a byte (`uint8_t`) ar
   </blockquote>
 </details>
 
----
+
 
 <details><summary id="settransactionid"><strong>setTransactionId()</strong></summary>
   <blockquote>
@@ -234,7 +234,7 @@ adu.setDataRegister(5, 52428);  // sets data bytes 5 and 6
   </blockquote>
 </details>
 
----
+
 
 <details><summary id="setrtulen"><strong>setRtuLen()</strong></summary>
   <blockquote>
@@ -309,7 +309,7 @@ Sets the length field assuming that the submitted value is the length of the dat
   </blockquote>
 </details>
 
----
+
 
 <details><summary id="gettransactionid"><strong>getTransactionId()</strong></summary>
   <blockquote>
@@ -434,7 +434,7 @@ The 16-bit value read from the data field of the ADU. Data type: `uint16_t`.
   </blockquote>
 </details>
 
----
+
 
 <details><summary id="getrtulen"><strong>getRtuLen()</strong></summary>
   <blockquote>
@@ -517,7 +517,7 @@ The length in bytes of the data field. Allowed data types: `uint16_t`.
   </blockquote>
 </details>
 
----
+
 
 <details><summary id="updatecrc"><strong>updateCrc()</strong></summary>
   <blockquote>
@@ -555,7 +555,7 @@ Checks if the error check is correct for the contents of the ADU.
   </blockquote>
 </details>
 
----
+
 
 <details><summary id="prepareexceptionresponse"><strong>prepareExceptionResponse()</strong></summary>
   <blockquote>
